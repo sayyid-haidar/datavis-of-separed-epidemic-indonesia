@@ -1,0 +1,5 @@
+{
+    "name": "Build Settings",
+    "build_command": "npm run build",
+    "build_output_directory": "dist"
+}

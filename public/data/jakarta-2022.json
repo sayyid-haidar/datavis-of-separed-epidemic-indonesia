@@ -1,0 +1,114 @@
+{
+    "data": [
+        {
+            "periode_data": "2022",
+            "kota_atau_kabupaten": "jakarta pusat",
+            "jenis_kelamin": "laki laki",
+            "jumlah_difteri": "4",
+            "jumlah_kipi_serius": "4",
+            "jumlah_hepatitis_a": "7",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": null,
+            "kota_atau_kabupaten": " ",
+            "jenis_kelamin": "perempuan",
+            "jumlah_difteri": "2",
+            "jumlah_kipi_serius": "7",
+            "jumlah_hepatitis_a": "6",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": "2022",
+            "kota_atau_kabupaten": "jakarta utara",
+            "jenis_kelamin": "laki laki",
+            "jumlah_difteri": "2",
+            "jumlah_kipi_serius": "4",
+            "jumlah_hepatitis_a": "36",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": null,
+            "kota_atau_kabupaten": " ",
+            "jenis_kelamin": "perempuan",
+            "jumlah_difteri": "1",
+            "jumlah_kipi_serius": "2",
+            "jumlah_hepatitis_a": "29",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": "2022",
+            "kota_atau_kabupaten": "jakarta barat",
+            "jenis_kelamin": "laki laki",
+            "jumlah_difteri": "3",
+            "jumlah_kipi_serius": "3",
+            "jumlah_hepatitis_a": "13",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": null,
+            "kota_atau_kabupaten": " ",
+            "jenis_kelamin": "perempuan",
+            "jumlah_difteri": "3",
+            "jumlah_kipi_serius": "8",
+            "jumlah_hepatitis_a": "5",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": "2022",
+            "kota_atau_kabupaten": "jakarta selatan",
+            "jenis_kelamin": "laki laki",
+            "jumlah_difteri": "2",
+            "jumlah_kipi_serius": "1",
+            "jumlah_hepatitis_a": "11",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": null,
+            "kota_atau_kabupaten": " ",
+            "jenis_kelamin": "perempuan",
+            "jumlah_difteri": "7",
+            "jumlah_kipi_serius": "3",
+            "jumlah_hepatitis_a": "7",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": "2022",
+            "kota_atau_kabupaten": "jakarta timur",
+            "jenis_kelamin": "laki laki",
+            "jumlah_difteri": "7",
+            "jumlah_kipi_serius": "3",
+            "jumlah_hepatitis_a": "16",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": null,
+            "kota_atau_kabupaten": " ",
+            "jenis_kelamin": "perempuan",
+            "jumlah_difteri": "4",
+            "jumlah_kipi_serius": "1",
+            "jumlah_hepatitis_a": "9",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": "2022",
+            "kota_atau_kabupaten": "kepulauan seribu",
+            "jenis_kelamin": "laki laki",
+            "jumlah_difteri": "0",
+            "jumlah_kipi_serius": "0",
+            "jumlah_hepatitis_a": "0",
+            "jumlah_mers_cov": "0"
+        },
+        {
+            "periode_data": null,
+            "kota_atau_kabupaten": " ",
+            "jenis_kelamin": "perempuan",
+            "jumlah_difteri": "0",
+            "jumlah_kipi_serius": "0",
+            "jumlah_hepatitis_a": "0",
+            "jumlah_mers_cov": "0"
+        }
+    ],
+    "total_file": 12,
+    "message": "success"
+}

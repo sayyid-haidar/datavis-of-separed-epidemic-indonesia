@@ -1,0 +1,1258 @@
+{
+    "metadata": {
+        "title": "Data Wabah dan Penyakit Menular Indonesia",
+        "description": "Kumpulan data kasus wabah dan penyakit menular dari berbagai wilayah di Indonesia",
+        "sources": [
+            "Dinas Kesehatan DKI Jakarta",
+            "Dinas Kesehatan Provinsi Jawa Barat",
+            "Dinas Kesehatan Provinsi Jawa Timur"
+        ],
+        "lastUpdated": "2024-12-18",
+        "version": "1.0.0"
+    },
+    "regions": {
+        "jakarta": {
+            "name": "DKI Jakarta",
+            "type": "provinsi",
+            "kode": "31",
+            "districts": [
+                {
+                    "id": "jakarta-pusat",
+                    "name": "Jakarta Pusat",
+                    "type": "kota_adm"
+                },
+                {
+                    "id": "jakarta-utara",
+                    "name": "Jakarta Utara",
+                    "type": "kota_adm"
+                },
+                {
+                    "id": "jakarta-barat",
+                    "name": "Jakarta Barat",
+                    "type": "kota_adm"
+                },
+                {
+                    "id": "jakarta-selatan",
+                    "name": "Jakarta Selatan",
+                    "type": "kota_adm"
+                },
+                {
+                    "id": "jakarta-timur",
+                    "name": "Jakarta Timur",
+                    "type": "kota_adm"
+                },
+                {
+                    "id": "kepulauan-seribu",
+                    "name": "Kepulauan Seribu",
+                    "type": "kab_adm"
+                }
+            ]
+        },
+        "jabar": {
+            "name": "Jawa Barat",
+            "type": "provinsi",
+            "kode": "32",
+            "districts": [
+                {
+                    "id": "kota-cirebon",
+                    "name": "Kota Cirebon",
+                    "type": "kota"
+                },
+                {
+                    "id": "kab-bogor",
+                    "name": "Kabupaten Bogor",
+                    "type": "kabupaten"
+                }
+            ]
+        },
+        "jatim": {
+            "name": "Jawa Timur",
+            "type": "provinsi",
+            "kode": "35"
+        }
+    },
+    "diseases": [
+        {
+            "id": "difteri",
+            "name": "Difteri",
+            "category": "penyakit_menular",
+            "preventable": true
+        },
+        {
+            "id": "pertusis",
+            "name": "Pertusis (Batuk Rejan)",
+            "category": "penyakit_menular",
+            "preventable": true
+        },
+        {
+            "id": "hepatitis-a",
+            "name": "Hepatitis A",
+            "category": "penyakit_menular",
+            "preventable": true
+        },
+        {
+            "id": "kipi-serius",
+            "name": "KIPI Serius",
+            "category": "efek_samping_vaksin",
+            "preventable": false
+        },
+        {
+            "id": "mers-cov",
+            "name": "MERS-CoV",
+            "category": "penyakit_menular",
+            "preventable": false
+        },
+        {
+            "id": "diare-akut",
+            "name": "Diare Akut",
+            "category": "penyakit_menular",
+            "preventable": true
+        },
+        {
+            "id": "dbd",
+            "name": "Demam Berdarah Dengue",
+            "category": "penyakit_menular",
+            "preventable": true
+        },
+        {
+            "id": "wabah-hewan",
+            "name": "Wabah/Endemi pada Hewan",
+            "category": "zoonosis",
+            "preventable": true
+        }
+    ],
+    "data": {
+        "jakarta": {
+            "2022": {
+                "periode": "2022",
+                "source": "Dinas Kesehatan DKI Jakarta",
+                "cases": [
+                    {
+                        "district": "jakarta-pusat",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 4,
+                                "perempuan": 2,
+                                "total": 6
+                            },
+                            "kipi-serius": {
+                                "laki": 4,
+                                "perempuan": 7,
+                                "total": 11
+                            },
+                            "hepatitis-a": {
+                                "laki": 7,
+                                "perempuan": 6,
+                                "total": 13
+                            },
+                            "mers-cov": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-utara",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 2,
+                                "perempuan": 1,
+                                "total": 3
+                            },
+                            "kipi-serius": {
+                                "laki": 4,
+                                "perempuan": 2,
+                                "total": 6
+                            },
+                            "hepatitis-a": {
+                                "laki": 36,
+                                "perempuan": 29,
+                                "total": 65
+                            },
+                            "mers-cov": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-barat",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 3,
+                                "perempuan": 3,
+                                "total": 6
+                            },
+                            "kipi-serius": {
+                                "laki": 3,
+                                "perempuan": 8,
+                                "total": 11
+                            },
+                            "hepatitis-a": {
+                                "laki": 13,
+                                "perempuan": 5,
+                                "total": 18
+                            },
+                            "mers-cov": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-selatan",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 2,
+                                "perempuan": 7,
+                                "total": 9
+                            },
+                            "kipi-serius": {
+                                "laki": 1,
+                                "perempuan": 3,
+                                "total": 4
+                            },
+                            "hepatitis-a": {
+                                "laki": 11,
+                                "perempuan": 7,
+                                "total": 18
+                            },
+                            "mers-cov": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-timur",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 7,
+                                "perempuan": 4,
+                                "total": 11
+                            },
+                            "kipi-serius": {
+                                "laki": 3,
+                                "perempuan": 1,
+                                "total": 4
+                            },
+                            "hepatitis-a": {
+                                "laki": 16,
+                                "perempuan": 9,
+                                "total": 25
+                            },
+                            "mers-cov": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    },
+                    {
+                        "district": "kepulauan-seribu",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "kipi-serius": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "hepatitis-a": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "mers-cov": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    }
+                ],
+                "summary": {
+                    "difteri": {
+                        "total": 35,
+                        "laki": 18,
+                        "perempuan": 17
+                    },
+                    "kipi-serius": {
+                        "total": 36,
+                        "laki": 15,
+                        "perempuan": 21
+                    },
+                    "hepatitis-a": {
+                        "total": 139,
+                        "laki": 83,
+                        "perempuan": 56
+                    },
+                    "mers-cov": {
+                        "total": 0,
+                        "laki": 0,
+                        "perempuan": 0
+                    }
+                }
+            },
+            "2023": {
+                "periode": "2023",
+                "source": "Dinas Kesehatan DKI Jakarta",
+                "cases": [
+                    {
+                        "district": "jakarta-pusat",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 2,
+                                "perempuan": 3,
+                                "total": 5
+                            },
+                            "kipi-serius": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "pertusis": {
+                                "laki": 5,
+                                "perempuan": 11,
+                                "total": 16
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-utara",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 18,
+                                "perempuan": 10,
+                                "total": 28
+                            },
+                            "kipi-serius": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "pertusis": {
+                                "laki": 8,
+                                "perempuan": 10,
+                                "total": 18
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-barat",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 8,
+                                "perempuan": 2,
+                                "total": 10
+                            },
+                            "kipi-serius": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "pertusis": {
+                                "laki": 5,
+                                "perempuan": 3,
+                                "total": 8
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-selatan",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 31,
+                                "perempuan": 0,
+                                "total": 31
+                            },
+                            "kipi-serius": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "pertusis": {
+                                "laki": 13,
+                                "perempuan": 18,
+                                "total": 31
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-timur",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 9,
+                                "perempuan": 0,
+                                "total": 9
+                            },
+                            "kipi-serius": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "pertusis": {
+                                "laki": 4,
+                                "perempuan": 5,
+                                "total": 9
+                            }
+                        }
+                    },
+                    {
+                        "district": "kepulauan-seribu",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "kipi-serius": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "pertusis": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    }
+                ],
+                "summary": {
+                    "difteri": {
+                        "total": 83,
+                        "laki": 68,
+                        "perempuan": 15
+                    },
+                    "kipi-serius": {
+                        "total": 0,
+                        "laki": 0,
+                        "perempuan": 0
+                    },
+                    "pertusis": {
+                        "total": 82,
+                        "laki": 35,
+                        "perempuan": 47
+                    }
+                }
+            },
+            "2024": {
+                "periode": "2024",
+                "source": "Estimasi berdasarkan tren (Q1-Q3)",
+                "isEstimated": true,
+                "cases": [
+                    {
+                        "district": "jakarta-pusat",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 3,
+                                "perempuan": 2,
+                                "total": 5
+                            },
+                            "pertusis": {
+                                "laki": 4,
+                                "perempuan": 8,
+                                "total": 12
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-utara",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 12,
+                                "perempuan": 7,
+                                "total": 19
+                            },
+                            "pertusis": {
+                                "laki": 6,
+                                "perempuan": 8,
+                                "total": 14
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-barat",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 5,
+                                "perempuan": 2,
+                                "total": 7
+                            },
+                            "pertusis": {
+                                "laki": 4,
+                                "perempuan": 3,
+                                "total": 7
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-selatan",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 20,
+                                "perempuan": 5,
+                                "total": 25
+                            },
+                            "pertusis": {
+                                "laki": 10,
+                                "perempuan": 14,
+                                "total": 24
+                            }
+                        }
+                    },
+                    {
+                        "district": "jakarta-timur",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 6,
+                                "perempuan": 2,
+                                "total": 8
+                            },
+                            "pertusis": {
+                                "laki": 3,
+                                "perempuan": 4,
+                                "total": 7
+                            }
+                        }
+                    },
+                    {
+                        "district": "kepulauan-seribu",
+                        "diseases": {
+                            "difteri": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            },
+                            "pertusis": {
+                                "laki": 0,
+                                "perempuan": 0,
+                                "total": 0
+                            }
+                        }
+                    }
+                ],
+                "summary": {
+                    "difteri": {
+                        "total": 64,
+                        "laki": 46,
+                        "perempuan": 18
+                    },
+                    "pertusis": {
+                        "total": 64,
+                        "laki": 27,
+                        "perempuan": 37
+                    }
+                }
+            }
+        },
+        "cirebon": {
+            "description": "Kasus wabah/endemi pada hewan di Kota Cirebon",
+            "diseaseType": "wabah-hewan",
+            "subdistricts": [
+                {
+                    "id": "kejaksan",
+                    "name": "Kejaksan"
+                },
+                {
+                    "id": "lemah-wungkuk",
+                    "name": "Lemah Wungkuk"
+                },
+                {
+                    "id": "harjamukti",
+                    "name": "Harjamukti"
+                },
+                {
+                    "id": "pekalipan",
+                    "name": "Pekalipan"
+                },
+                {
+                    "id": "kesambi",
+                    "name": "Kesambi"
+                }
+            ],
+            "yearlyData": {
+                "2018": {
+                    "kejaksan": 0,
+                    "lemah-wungkuk": 0,
+                    "harjamukti": 0,
+                    "pekalipan": 0,
+                    "kesambi": 0,
+                    "total": 0
+                },
+                "2019": {
+                    "kejaksan": 0,
+                    "lemah-wungkuk": 0,
+                    "harjamukti": 2,
+                    "pekalipan": 0,
+                    "kesambi": 3,
+                    "total": 5
+                },
+                "2020": {
+                    "kejaksan": 0,
+                    "lemah-wungkuk": 0,
+                    "harjamukti": 3,
+                    "pekalipan": 0,
+                    "kesambi": 3,
+                    "total": 6
+                },
+                "2021": {
+                    "kejaksan": 1,
+                    "lemah-wungkuk": 0,
+                    "harjamukti": 0,
+                    "pekalipan": 0,
+                    "kesambi": 0,
+                    "total": 1
+                },
+                "2022": {
+                    "kejaksan": 6,
+                    "lemah-wungkuk": 2,
+                    "harjamukti": 80,
+                    "pekalipan": 0,
+                    "kesambi": 31,
+                    "total": 119
+                },
+                "2023": {
+                    "kejaksan": 0,
+                    "lemah-wungkuk": 0,
+                    "harjamukti": 2,
+                    "pekalipan": 0,
+                    "kesambi": 0,
+                    "total": 2
+                },
+                "2024": {
+                    "kejaksan": 0,
+                    "lemah-wungkuk": 0,
+                    "harjamukti": 1,
+                    "pekalipan": 0,
+                    "kesambi": 1,
+                    "total": 2
+                }
+            },
+            "summary": {
+                "totalAllYears": 135,
+                "peakYear": 2022,
+                "peakCount": 119,
+                "hotspot": "harjamukti"
+            }
+        },
+        "bogor": {
+            "description": "Jumlah wabah lainnya di Kabupaten Bogor",
+            "diseaseType": "wabah-lainnya",
+            "subdistricts": [
+                {
+                    "id": "babakan-madang",
+                    "name": "Babakan Madang"
+                },
+                {
+                    "id": "gunung-putri",
+                    "name": "Gunung Putri"
+                },
+                {
+                    "id": "citeureup",
+                    "name": "Citeureup"
+                },
+                {
+                    "id": "cibinong",
+                    "name": "Cibinong"
+                },
+                {
+                    "id": "ciomas",
+                    "name": "Ciomas"
+                },
+                {
+                    "id": "dramaga",
+                    "name": "Dramaga"
+                }
+            ],
+            "yearlyData": {
+                "2020": {
+                    "babakan-madang": 0,
+                    "gunung-putri": 0,
+                    "citeureup": 0,
+                    "cibinong": 0,
+                    "ciomas": 0,
+                    "dramaga": 0,
+                    "total": 0
+                },
+                "2021": {
+                    "babakan-madang": 0,
+                    "gunung-putri": 0,
+                    "citeureup": 0,
+                    "cibinong": 0,
+                    "ciomas": 0,
+                    "dramaga": 0,
+                    "total": 0
+                },
+                "2022": {
+                    "babakan-madang": 0,
+                    "gunung-putri": 43,
+                    "citeureup": 11,
+                    "cibinong": 0,
+                    "ciomas": 0,
+                    "dramaga": 0,
+                    "total": 54
+                },
+                "2023": {
+                    "babakan-madang": 0,
+                    "gunung-putri": 0,
+                    "citeureup": 0,
+                    "cibinong": 0,
+                    "ciomas": 0,
+                    "dramaga": 0,
+                    "total": 0
+                },
+                "2024": {
+                    "babakan-madang": 0,
+                    "gunung-putri": 0,
+                    "citeureup": 0,
+                    "cibinong": 0,
+                    "ciomas": 0,
+                    "dramaga": 0,
+                    "total": 0,
+                    "isEstimated": true
+                }
+            },
+            "summary": {
+                "totalAllYears": 54,
+                "peakYear": 2022,
+                "peakCount": 54,
+                "hotspot": "gunung-putri"
+            }
+        },
+        "jatim": {
+            "description": "Kasus potensial wabah berdasarkan jenis penyakit dan jenis perawatan di Jawa Timur",
+            "source": "Dinas Kesehatan Provinsi Jawa Timur",
+            "diseaseTypes": [
+                {
+                    "id": "diare-akut",
+                    "name": "Diare Akut"
+                },
+                {
+                    "id": "dengue",
+                    "name": "Suspek Dengue / DBD"
+                },
+                {
+                    "id": "pneumonia",
+                    "name": "Pneumonia"
+                },
+                {
+                    "id": "tifoid",
+                    "name": "Suspek Demam Tifoid"
+                },
+                {
+                    "id": "jaundice",
+                    "name": "Sindrom Jaundice Akut"
+                },
+                {
+                    "id": "campak",
+                    "name": "Suspek Campak"
+                },
+                {
+                    "id": "difteri",
+                    "name": "Suspek Difteri"
+                },
+                {
+                    "id": "pertussis",
+                    "name": "Pertussis"
+                },
+                {
+                    "id": "malaria",
+                    "name": "Malaria Konfirmasi"
+                },
+                {
+                    "id": "chikungunya",
+                    "name": "Suspek Chikungunya"
+                },
+                {
+                    "id": "kolera",
+                    "name": "Suspek Kolera"
+                },
+                {
+                    "id": "leptospirosis",
+                    "name": "Suspek Leptospirosis"
+                },
+                {
+                    "id": "meningitis",
+                    "name": "Suspek Meningitis/Encephalitis"
+                },
+                {
+                    "id": "tetanus",
+                    "name": "Suspek Tetanus"
+                },
+                {
+                    "id": "tetanus-neo",
+                    "name": "Suspek Tetanus Neonatorum"
+                },
+                {
+                    "id": "flu-burung",
+                    "name": "Suspek Flu Burung pada Manusia"
+                },
+                {
+                    "id": "rabies",
+                    "name": "Gigitan Hewan Penular Rabies"
+                },
+                {
+                    "id": "antrax",
+                    "name": "Suspek Antrax"
+                },
+                {
+                    "id": "afp",
+                    "name": "Acute Flacid Paralysis (AFP)"
+                },
+                {
+                    "id": "hfmd",
+                    "name": "Suspek HFMD (Hand Foot Mouth Disease)"
+                },
+                {
+                    "id": "ili",
+                    "name": "ILI (Penyakit Serupa Influenza)"
+                },
+                {
+                    "id": "kluster",
+                    "name": "Kluster Penyakit yang Tidak Lazim"
+                },
+                {
+                    "id": "disentri",
+                    "name": "Diare Berdarah / Disentri"
+                },
+                {
+                    "id": "covid",
+                    "name": "Suspek COVID"
+                }
+            ],
+            "yearlyData": {
+                "2021": {
+                    "periode": "2021-01 s/d 2021-12",
+                    "diseases": {
+                        "diare-akut": {
+                            "igd": 329,
+                            "rawat_inap": 483,
+                            "total": 812
+                        },
+                        "dengue": {
+                            "igd": 76,
+                            "rawat_inap": 155,
+                            "total": 231
+                        },
+                        "pneumonia": {
+                            "igd": 131,
+                            "rawat_inap": 101,
+                            "total": 232
+                        },
+                        "tifoid": {
+                            "igd": 28,
+                            "rawat_inap": 32,
+                            "total": 60
+                        },
+                        "jaundice": {
+                            "igd": 362,
+                            "rawat_inap": 53,
+                            "total": 415
+                        },
+                        "campak": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "difteri": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "pertussis": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "malaria": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "kolera": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        }
+                    },
+                    "summary": {
+                        "totalCases": 1751,
+                        "topDiseases": [
+                            "diare-akut",
+                            "jaundice",
+                            "pneumonia",
+                            "dengue"
+                        ]
+                    }
+                },
+                "2022": {
+                    "periode": "2022-01 s/d 2022-12",
+                    "diseases": {
+                        "diare-akut": {
+                            "igd": 406,
+                            "rawat_inap": 625,
+                            "total": 1031
+                        },
+                        "dengue": {
+                            "igd": 253,
+                            "rawat_inap": 477,
+                            "total": 730
+                        },
+                        "pneumonia": {
+                            "igd": 85,
+                            "rawat_inap": 104,
+                            "total": 189
+                        },
+                        "tifoid": {
+                            "igd": 39,
+                            "rawat_inap": 38,
+                            "total": 77
+                        },
+                        "jaundice": {
+                            "igd": 218,
+                            "rawat_inap": 37,
+                            "total": 255
+                        },
+                        "campak": {
+                            "igd": 2,
+                            "rawat_inap": 4,
+                            "total": 6
+                        },
+                        "difteri": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "pertussis": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "malaria": {
+                            "igd": 1,
+                            "rawat_inap": 1,
+                            "total": 2
+                        },
+                        "kolera": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        },
+                        "hfmd": {
+                            "igd": 8,
+                            "rawat_inap": 0,
+                            "total": 8
+                        },
+                        "meningitis": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        },
+                        "disentri": {
+                            "igd": 1,
+                            "rawat_inap": 0,
+                            "total": 1
+                        }
+                    },
+                    "summary": {
+                        "totalCases": 2301,
+                        "topDiseases": [
+                            "diare-akut",
+                            "dengue",
+                            "jaundice",
+                            "pneumonia"
+                        ],
+                        "yearOverYearChange": {
+                            "diare-akut": {
+                                "change": 219,
+                                "percent": 26.9
+                            },
+                            "dengue": {
+                                "change": 499,
+                                "percent": 216.0
+                            }
+                        }
+                    }
+                },
+                "2023": {
+                    "periode": "2023-01 s/d 2023-12",
+                    "diseases": {
+                        "diare-akut": {
+                            "igd": 111,
+                            "rawat_inap": 218,
+                            "total": 329
+                        },
+                        "dengue": {
+                            "igd": 30,
+                            "rawat_inap": 200,
+                            "total": 230
+                        },
+                        "pneumonia": {
+                            "igd": 83,
+                            "rawat_inap": 113,
+                            "total": 196
+                        },
+                        "tifoid": {
+                            "igd": 13,
+                            "rawat_inap": 11,
+                            "total": 24
+                        },
+                        "jaundice": {
+                            "igd": 36,
+                            "rawat_inap": 33,
+                            "total": 69
+                        },
+                        "campak": {
+                            "igd": 3,
+                            "rawat_inap": 30,
+                            "total": 33
+                        },
+                        "difteri": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "pertussis": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "malaria": {
+                            "igd": 0,
+                            "rawat_inap": 2,
+                            "total": 2
+                        },
+                        "chikungunya": {
+                            "igd": 1,
+                            "rawat_inap": 0,
+                            "total": 1
+                        },
+                        "leptospirosis": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        },
+                        "disentri": {
+                            "igd": 0,
+                            "rawat_inap": 4,
+                            "total": 4
+                        }
+                    },
+                    "summary": {
+                        "totalCases": 889,
+                        "topDiseases": [
+                            "diare-akut",
+                            "dengue",
+                            "pneumonia",
+                            "jaundice"
+                        ],
+                        "note": "Data partial - penurunan signifikan dari 2022"
+                    }
+                },
+                "2024": {
+                    "periode": "2024-01 s/d 2024-12",
+                    "diseases": {
+                        "diare-akut": {
+                            "igd": 0,
+                            "rawat_inap": 45,
+                            "total": 45
+                        },
+                        "dengue": {
+                            "igd": 0,
+                            "rawat_inap": 301,
+                            "total": 301
+                        },
+                        "pneumonia": {
+                            "igd": 0,
+                            "rawat_inap": 42,
+                            "total": 42
+                        },
+                        "tifoid": {
+                            "igd": 0,
+                            "rawat_inap": 2,
+                            "total": 2
+                        },
+                        "campak": {
+                            "igd": 0,
+                            "rawat_inap": 21,
+                            "total": 21
+                        },
+                        "difteri": {
+                            "igd": 0,
+                            "rawat_inap": 2,
+                            "total": 2
+                        },
+                        "pertussis": {
+                            "igd": 0,
+                            "rawat_inap": 2,
+                            "total": 2
+                        },
+                        "malaria": {
+                            "igd": 0,
+                            "rawat_inap": 3,
+                            "total": 3
+                        },
+                        "covid": {
+                            "igd": 0,
+                            "rawat_inap": 5,
+                            "total": 5
+                        },
+                        "hfmd": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        },
+                        "afp": {
+                            "igd": 0,
+                            "rawat_inap": 2,
+                            "total": 2
+                        },
+                        "disentri": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        }
+                    },
+                    "summary": {
+                        "totalCases": 427,
+                        "topDiseases": [
+                            "dengue",
+                            "diare-akut",
+                            "pneumonia",
+                            "campak"
+                        ],
+                        "note": "Dengue menjadi penyakit utama, data hanya rawat inap"
+                    }
+                },
+                "2025": {
+                    "periode": "2025-01 s/d 2025-11",
+                    "isPartialYear": true,
+                    "diseases": {
+                        "diare-akut": {
+                            "igd": 0,
+                            "rawat_inap": 0,
+                            "total": 0
+                        },
+                        "dengue": {
+                            "igd": 0,
+                            "rawat_inap": 360,
+                            "total": 360
+                        },
+                        "pneumonia": {
+                            "igd": 0,
+                            "rawat_inap": 3,
+                            "total": 3
+                        },
+                        "campak": {
+                            "igd": 0,
+                            "rawat_inap": 61,
+                            "total": 61
+                        },
+                        "chikungunya": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        },
+                        "leptospirosis": {
+                            "igd": 0,
+                            "rawat_inap": 1,
+                            "total": 1
+                        }
+                    },
+                    "summary": {
+                        "totalCases": 426,
+                        "topDiseases": [
+                            "dengue",
+                            "campak",
+                            "pneumonia"
+                        ],
+                        "note": "Lonjakan campak dan dengue di tahun 2025"
+                    }
+                }
+            },
+            "insights": {
+                "dengueSpike2024_2025": {
+                    "description": "Dengue melonjak di 2024-2025 menjadi penyakit dengan kasus terbanyak",
+                    "cases2024": 301,
+                    "cases2025": 360
+                },
+                "campakIncrease2025": {
+                    "description": "Campak meningkat signifikan di 2025",
+                    "cases2024": 21,
+                    "cases2025": 61
+                },
+                "diareAkutDecline": {
+                    "description": "Diare akut menurun drastis dari 2022",
+                    "peak2022": 1031,
+                    "current2024": 45
+                }
+            },
+            "summary": {
+                "totalAllYears": 5794,
+                "peakYear": 2022,
+                "peakCount": 2301,
+                "mainDiseases": [
+                    "diare-akut",
+                    "dengue",
+                    "jaundice",
+                    "pneumonia"
+                ]
+            }
+        }
+    },
+    "analytics": {
+        "trends": {
+            "jakarta-difteri": {
+                "type": "increasing",
+                "description": "Kasus difteri di Jakarta meningkat 137% dari 2022 ke 2023",
+                "yearOverYearChange": [
+                    {
+                        "from": 2022,
+                        "to": 2023,
+                        "change": 48,
+                        "percentChange": 137.1
+                    }
+                ]
+            },
+            "cirebon-outbreak-2022": {
+                "type": "spike",
+                "description": "Ledakan kasus wabah hewan di Cirebon tahun 2022 (119 kasus), 19x lipat dari rata-rata",
+                "peakValue": 119
+            }
+        },
+        "hotspots": [
+            {
+                "region": "jakarta-selatan",
+                "disease": "difteri",
+                "year": 2023,
+                "cases": 31
+            },
+            {
+                "region": "harjamukti",
+                "disease": "wabah-hewan",
+                "year": 2022,
+                "cases": 80
+            },
+            {
+                "region": "gunung-putri",
+                "disease": "wabah-lainnya",
+                "year": 2022,
+                "cases": 43
+            }
+        ],
+        "recommendations": [
+            "Perkuat surveilans difteri di Jakarta Selatan dan Jakarta Utara",
+            "Investigasi penyebab outbreak Cirebon 2022 untuk pencegahan di masa depan",
+            "Monitoring berkelanjutan di Gunung Putri, Kabupaten Bogor"
+        ]
+    }
+}

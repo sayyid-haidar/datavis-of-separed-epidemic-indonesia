@@ -1,0 +1,258 @@
+{
+    "data": [
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA BARAT",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "8"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA BARAT",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "2"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA BARAT",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA BARAT",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA BARAT",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "5"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA BARAT",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "3"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA PUSAT",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "2"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA PUSAT",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "3"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA PUSAT",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA PUSAT",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA PUSAT",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "5"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA PUSAT",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "11"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA SELATAN",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "31"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA SELATAN",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA SELATAN",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA SELATAN",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA SELATAN",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "13"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA SELATAN",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "18"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA TIMUR",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "9"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA TIMUR",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA TIMUR",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA TIMUR",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA TIMUR",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "4"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA TIMUR",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "5"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA UTARA",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "18"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA UTARA",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "10"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA UTARA",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA UTARA",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA UTARA",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "8"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KOTA ADM. JAKARTA UTARA",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "10"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KAB. ADM. KEP. SERIBU",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KAB. ADM. KEP. SERIBU",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Jumlah kasus difteri",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KAB. ADM. KEP. SERIBU",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KAB. ADM. KEP. SERIBU",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "jumlah kipi serius ",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KAB. ADM. KEP. SERIBU",
+            "jenis_kelamin": "Laki-laki",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "0"
+        },
+        {
+            "periode_data": "2023",
+            "wilayah": "KAB. ADM. KEP. SERIBU",
+            "jenis_kelamin": "Perempuan",
+            "jenis_kasus": "Pertusis",
+            "jumlah": "0"
+        }
+    ],
+    "total_file": 36,
+    "message": "success"
+}
